@@ -10,13 +10,12 @@ struct RTOEv {
 	};
 	struct Info {
 		enum {
-
+		// Probably, some enums for your own commands?..
 		};
 	};
 	struct Rto {
 		enum {
-			MAINMENU_RTO,
-			ACTION_RTO,
+		// Here indexes of your RTOs...
 		};
 	};
 };
