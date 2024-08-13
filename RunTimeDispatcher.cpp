@@ -4,13 +4,11 @@
 
 void RunTimeDispatcher::RTOInit()
 {
-	MainManuRTO* mmrto = new MainManuRTO;
-	ActionRTO* arto = new ActionRTO;
-
-	RTObjects.push_back(mmrto);
-	RTObjects.push_back(arto);
-
-	currRTO = RTOEv::Rto::MAINMENU_RTO;
+// 	Create here your RTOs and add to RTObjects, for example:
+//	yourRTO* yRTO = new yourRTO;
+//	RTObjects.push_back(yourRTO);
+	
+	currRTO = 0; // and put here index of your starting RTO.
 
 	rto = RTObjects[currRTO];
 }
