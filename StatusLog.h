@@ -15,7 +15,7 @@ namespace rto {
 	void critErr(std::string text);
 }
 
-// global RTO
+
 namespace rtd {
 	void log(std::string text);
 	void error(std::string text);
